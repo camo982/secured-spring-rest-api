@@ -36,10 +36,12 @@ public class FicherosController {
 		
         String contentType = null;
         try {
-            contentType = request.getServletContext().getMimeType(file.getFile().getAbsolutePath());
+			contentType = request.getServletContext().getMimeType(file.getFile().getAbsolutePath());
+			logger.info("Se agrega un log en el try");
         } catch (IOException ex) {
 			logger.info("Could not determine file type");
 			logger.info("log en este controller");
+			logger.info("se agrega nuevo log en este controller");
         }
 
         if(contentType == null) {
