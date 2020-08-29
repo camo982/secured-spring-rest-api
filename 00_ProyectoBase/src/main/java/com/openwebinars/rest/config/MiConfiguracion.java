@@ -16,6 +16,8 @@ public class MiConfiguracion {
 		return new ModelMapper();
 	}
 	
+	//se agrega este comentario para ver el cambio en git
+	
 	/**
 	 * Configuración más básica. Por defecto se permite
 	 * - Todos los orígnenes
