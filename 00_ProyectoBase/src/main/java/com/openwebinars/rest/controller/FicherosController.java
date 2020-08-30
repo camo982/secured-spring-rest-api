@@ -42,7 +42,6 @@ public class FicherosController {
 			logger.info("Could not determine file type");
 			logger.info("log en este controller");
 			logger.info("se agrega nuevo log en este controller");
-			logger.info("se agrega log repetido en este controller");
         }
 
         if(contentType == null) {
