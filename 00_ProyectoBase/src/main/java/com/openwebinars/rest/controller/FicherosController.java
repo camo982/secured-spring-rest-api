@@ -39,6 +39,7 @@ public class FicherosController {
             contentType = request.getServletContext().getMimeType(file.getFile().getAbsolutePath());
         } catch (IOException ex) {
             logger.info("Could not determine file type");
+		 logger.info("Could not determine file type");
         }
 
         if(contentType == null) {
